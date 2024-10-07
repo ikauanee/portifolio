@@ -1,0 +1,50 @@
+html {
+    background-color: black;
+}
+
+.interface {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+    
+    background-color: white;
+}
+
+.div-imagem > img {
+    height: 100%;
+    border-radius: 100px
+}
+
+.menu-desktop > ul {
+    display: flex;
+    padding: 40px;
+    width: 850px;
+    justify-content: space-evenly;
+}
+
+.menu-desktop > ul > li::marker {
+    display: none;
+
+}
+
+.menu-desktop > ul > li > a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.teste {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
